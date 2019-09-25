@@ -15,7 +15,7 @@ class ProductShowTest extends TestCase
         	->assertStatus(404);
     }
 
-    public function test_it_shows_a_product()
+   /* public function test_it_shows_a_product()
     {
     	$product = factory(Product::class)->create();
 
@@ -23,5 +23,5 @@ class ProductShowTest extends TestCase
         	->assertJsonFragment([
         		'slug' => $product->slug
         	]);
-    }
+    }*/
 }

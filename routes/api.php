@@ -1,5 +1,5 @@
 <?php
 
-
-Route::resource('categories','Categories\CategoryController');
-Route::resource('products','Products\ProductController');
+   
+    Route::resource('categories','Categories\CategoryController');
+    Route::resource('products','Products\ProductController');
